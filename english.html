@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="icon" type="image/x-icon" href="icons/mrhairicon.svg">  <!--ICON GOES HERE-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://kit.fontawesome.com/cb48e5d5ae.js" crossorigin="anonymous"></script>
+    <!--CHANGE THE FONTS BELOW-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <title>Mr. Hair - Barber Website</title>
+  </head>
+  <body>
+       <!--0. Header-->
+       <header id="header">
+        <nav class="navbar">
+          <a href="index.html">
+          <img src="icons/mrhairlogo.png">
+        </a>
+          <div class="navlinks" id="navLinks">
+            <i class="fa fa-times hidemenu" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="index.html"><span>Hi Sir!</span></a></li>
+              <li><a href="gallery.html"><span>Gallery</span></a></li>
+              <li><a href="#section-pricelist"><span>Prices</span></a></li>
+              <li><a href="#section-contact"><span>Contact</span></a></li>
+              <a href="index.html"><img src="images/hungary.png"></a>
+              <a href="german.html"><img src="images/germany.png"></a>
+              <a href="english.html"><img src="images/united-kingdom.png"></a>
+            </ul>
+          </div>
+          <i class="fa fa-bars showmenu" onclick="showMenu()"></i>
+        </nav>
+        <!--1. Section Hero-->
+        <div class="hero">
+          <div class="line-div">
+            <hr>
+            <p>World-class barbershop</p>
+            </div>
+            <div class="main-title-div">
+              <h1>FOR THE GENTLEMEN TO TAKE AWAY</h1>
+              <hr>
+              </div>
+              <div class="quote-div">
+                <i class="fa-solid fa-quote-right quote-icon"></i>
+                <h3>IF SOMEONE HAS A PROBLEM WITH YOU, ALWAYS REMEMBER THAT YOUR HAIR IS MUCH COOLER THAN THEIRS.</h3>
+              </div>
+              <div class="button-div">
+                <a href="#section-contact">
+              <button>
+                <i class="fa-solid fa-right-long fa-beat"></i> &nbsp; &nbsp; I'll book an appointment!
+              </button>
+            </a>
+            </div>
+            </div>
+          </header>
+
+      <!--2. Section SziaUramFeeling-->
+      <section id="section-sziauram">
+        <div class="line-div line-div-sziauram-one">
+          <hr>
+          <p>THIS WILL BE ONE OF THE BEST DECISIONS OF YOUR LIFE</p>
+        </div>
+        <h2 class="subtitle">HI SIR!</h2>
+        <div class="line-div line-div-sziauram-two">
+          <hr class="hr-subline">
+          <p>INTERESTED IN A COOL HAIRSTYLE? </p>
+        </div>
+        <p class="sziauram-bigtext">
+          You enter the salon, a drink is poured, the blades are clicking and you leave like a movie star. I'm sure your wife won't follow you here!
+        </p>
+        <div class="textboxes">
+          <div class="textbox-one">
+            <p>
+              You could say it's a men's club, but it would be impossible to put it so simply. The barber's saloon experience makes men real gentlemen. It's not every day you finally get the courage to switch from a simple barbershop to a barber shop. You will experience an exhilarating feeling.            </p>
+          </div>
+          <div class="textbox-two">
+            <p>
+              The obligatory monthly haircut will turn into an adventure, a compulsory hobby. <b>Dear Sir! I will tell you a secret! </b>The first thing a fellow human being looks at you is your face and your "headdress". Grooming is of paramount importance for gentlemen. A modern, well-groomed appearance exudes elegance and power.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--3. Section Szolgáltatások-->
+      <section id="section-szolgaltatasok">
+        <div class="line-div">
+          <hr>
+          <p>Fashion of extraordinary men</p>
+        </div>
+        <h2 class="subtitle">Services</h2>
+        <div class="line-div">
+          <hr class="hr-subline">
+          <p>With pride for you..</p>
+        </div>
+
+        <div class="szolgaltatasok">
+          <div class="szolgaltatas-row">
+            <img src="icons/scissor.png">
+            <div class="row-details">
+              <h3>Haircut</h3>
+              <p>washing, cutting, neck shaving.</p>
+            </div>
+          </div>
+
+          <div class="szolgaltatas-row">
+            <img src="icons/avatar.png">
+            <div class="row-details">
+              <h3>Fantasy cut</h3>
+              <p>extreme haircuts, custom haircuts, hair tattooing, pattern shaving.</p>
+            </div>
+          </div>
+
+          <div class="szolgaltatas-row">
+            <img src="icons/razor.png">
+            <div class="row-details">
+              <h3>Shaving</h3>
+              <p>old school knife shave with a hot towel.</p>
+            </div>
+          </div>
+
+          <div class="szolgaltatas-row">
+            <img src="icons/beards.png">
+            <div class="row-details">
+              <h3>Beard dyeing and trimming</h3>
+              <p>like the stars in the movie... beard trimming with blade, machine and scissors.</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="button-div">
+          <a href="#section-contact">
+          <button>
+            <i class="fa-solid fa-right-long fa-beat"></i> &nbsp; &nbsp; I'll book an appointment!
+          </button>
+        </a>
+        </div>
+      </section>
+
+      <!--4. Section Pricelist-->
+
+      <section id="section-pricelist">
+        <div class="line-div">
+          <hr>
+          <p>THE HAIRSTYLE MAKES THE MAN</p>
+        </div>
+        <h2>PRICELIST</h2>
+        <div class="line-div">
+          <hr>
+          <p>THE BEST BARBER SHOP IN TOWN</p>
+        </div>
+        <div class="quote-div-two">
+        <p class="quote-line">
+          <i class="fa-sharp fa-solid fa-quote-left quote-icon"></i> &nbsp;&nbsp;&nbsp;It's an incredible feeling when you walk out the barber's door after a fresh cut.
+        </p>
+      </div>
+
+        <div class="pricelist">
+          <div class="pricelist-line">
+            <p class="detail-title">Basic Haircut</p>
+            <span></span>
+            <p class="detail-price">14 €</p>
+          </div>
+          <hr>
+        </div>
+
+        <div class="pricelist">
+          <div class="pricelist-line">
+            <p class="detail-title">Haircuts for children</p>
+            <span></span>
+            <p class="detail-price">10 €</p>
+          </div>
+          <hr>
+        </div>
+
+        <div class="pricelist">
+          <div class="pricelist-line">
+            <p class="detail-title">Fantasy Haircut</p>
+            <span></span>
+            <p class="detail-price">22 €</p>
+          </div>
+          <hr>
+        </div>
+
+        <div class="pricelist">
+          <div class="pricelist-line">
+            <p class="detail-title">Barber experience (cutting, shaving)</p>
+            <span></span>
+            <p class="detail-price">25 €</p>
+          </div>
+          <hr>
+        </div>
+
+        <div class="pricelist">
+          <div class="pricelist-line">
+            <p class="detail-title">Classic knife shave</p>
+            <span></span>
+            <p class="detail-price">12 €</p>
+          </div>
+          <hr>
+        </div>
+
+        <div class="pricelist">
+          <div class="pricelist-line">
+            <p class="detail-title">Beard dyeing</p>
+            <span></span>
+            <p class="detail-price">9 €</p>
+          </div>
+          <hr>
+        </div>
+
+        <div class="pricelist">
+          <div class="pricelist-line">
+            <p class="detail-title">Beard care (blade, machine, scissors)</p>
+            <span></span>
+            <p class="detail-price">10 €
+            </p>
+          </div>
+          <hr>
+        </div>
+      </section>
+
+      <section id="section-barbers">
+        <h2>OUR SCISSOR-HANDED MASTERS</h2>
+        <div class="line-div">
+          <hr>
+          <p>Highly skilled barbers</p>
+        </div>
+        <div class="barber-card-container">
+          <div class="barber-card">
+            <img src="csapat/barber1.1.webp">
+            <div class="barber-card-title">
+              <h4>Nagy Norbert</h4>
+              <p>Beard specialist, founder of Mr. Hair.</p>
+            </div>
+            <div class="progress-wrapper" id="progress1" style="padding-right: 4rem;">
+              <span class="progress-bar">Haircut</span>
+            </div>
+            <div class="progress-wrapper" id="progress2">
+              <span class="progress-bar">Beard care</span>
+            </div>
+            <div class="progress-wrapper" id="progress3" style="padding-right: 3rem;">
+              <span class="progress-bar">Shaving</span>
+            </div>
+            <div class="progress-wrapper" id="progress4" style="padding-right: 7rem;">
+              <span class="progress-bar">Creative haircut</span>
+            </div>
+            <div class="progress-wrapper" id="progress5" style="padding-right: 1rem;">
+              <span class="progress-bar">Professional experience</span>
+            </div>
+          </div>
+
+          <div class="barber-card">
+            <img src="csapat/barber3.webp">
+            <div class="barber-card-title">
+              <h4>Hajas gergő</h4>
+              <p>Creative haircut specialist, professional barber.</p>
+            </div>
+            <div class="progress-wrapper" id="progress1" style="padding-right: 1rem;">
+              <span class="progress-bar">Haircut</span>
+            </div>
+            <div class="progress-wrapper" id="progress2" style="padding-right: 8rem;">
+              <span class="progress-bar">Beard care</span>
+            </div>
+            <div class="progress-wrapper" id="progress3" style="padding-right: 6rem;">
+              <span class="progress-bar">Shaving</span>
+            </div>
+            <div class="progress-wrapper" id="progress4" >
+              <span class="progress-bar">Creative haircut</span>
+            </div>
+            <div class="progress-wrapper" id="progress5" style="padding-right: 6rem;">
+              <span class="progress-bar">Professional experience</span>
+            </div>
+          </div>
+
+          <div class="barber-card">
+            <img src="csapat/barbeeeeer.webp">
+            <div class="barber-card-title">
+              <h4>PÁNKI BÁLINT</h4>
+              <p>Shaving specialist, master of the blade.</p>
+            </div>
+            <div class="progress-wrapper" id="progress1" style="padding-right: 4rem;">
+              <span class="progress-bar">Haircut</span>
+            </div>
+            <div class="progress-wrapper" id="progress2" style="padding-right: 5rem;">
+              <span class="progress-bar">Beard care</span>
+            </div>
+            <div class="progress-wrapper" id="progress3">
+              <span class="progress-bar">Shaving</span>
+            </div>
+            <div class="progress-wrapper" id="progress4" style="padding-right: 6rem;">
+              <span class="progress-bar">Creative haircut</span>
+            </div>
+            <div class="progress-wrapper" id="progress5" style="padding-right: 4rem;">
+              <span class="progress-bar">Professional experience</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="slider-gallery-main-div">
+          <h2>If you want proof</h2>
+          <div class="line-div">
+            <hr>
+            <p>You'll impress anyone with that look</p>
+          </div>
+
+          <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+        <div class="image-line">
+          <img src="galéria/vendeg1-1.webp">
+          <img src="galéria/vendeg2-1.webp">
+          <img src="galéria/vendeg3-1.webp">
+        </div>
+
+        <a href="gallery-eng.html">
+        <button>
+          <i class="fa-solid fa-right-long fa-beat"></i> &nbsp;&nbsp;Go to the gallery!
+        </button>
+      </a>
+
+       </div>
+      </div>
+
+      </section>
+
+      <section id="section-contact">
+        <h2>HAVE A SEAT!</h2>
+        <div class="line-div">
+          <hr>
+          <p>THE BEST BARBER SHOP IN TOWN!</p>
+        </div>
+        <p class="quote-line">
+          A glass of scotch, a fresh cut and you will reborn..
+        </p>
+        <div class="contacts">
+          <a href="tel:+36991234567891" target="_blank"><i class="fa-solid fa-phone"></i> &nbsp;+36991234567891</a>
+          <a href="mailto:mrhair@email.com" target="_blank"><i class="fa-solid fa-envelope"></i> &nbsp;&nbsp;mrhair@email.com</a>
+          <a href="https://www.google.com/maps/place/Budapest/@47.4808722,18.8501225,10z/data=!3m1!4b1!4m6!3m5!1s0x4741c334d1d4cfc9:0x400c4290c1e1160!8m2!3d47.497912!4d19.040235!16zL20vMDk1d18" target="_blank">
+            <i class="fa-solid fa-location-dot"></i> 
+            &nbsp;&nbsp;&nbsp;1015 Budapest, not existing street
+          </a>
+        </div>
+
+        <div class="opening-times">
+          <p style="margin:20px 0; 
+            text-decoration: underline;
+            font-weight:600;">Opening hours</p>
+          <p style="margin-bottom:3px;">Monday - Thursday 08:30 - 18:30</p>
+          <p style="margin-bottom:3px;">Friday - Saturday 08:00 - 13:00</p>
+          <p>Sundays, holidays: CLOSED</p>
+        </div>
+
+        <div class="social-media-icons">
+          <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+
+      </section>
+
+      <div class="copyright">
+        <p>Copyright © 2023 Szaki Webdesign | All rights reserved.</p>
+        <p>Want a similar website for your business? Visit here: <a href="https://szakidesign.hu" target="_blank">szakidesign.hu</a></p>
+      </div>
+
+    <script src="progressbar.js"></script> 
+    <script src="responsive-menu.js"></script>   
+  </body>
+
+</html>

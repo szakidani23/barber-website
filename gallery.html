@@ -1,122 +1,123 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE-edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="general.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css">
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="footer.css">
-    <link rel="icon" type="image/x-icon" href="icons/mrhairicon.svg">  <!--ICON GOES HERE-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <script src="https://kit.fontawesome.com/cb48e5d5ae.js" crossorigin="anonymous"></script>
-    <!--CHANGE THE FONTS BELOW-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
-    <title>Mr. Hair - Barber Website</title>
-  </head>
-  <body>
-       <!--0. Header-->
-       <header id="header">
-        <nav class="navbar">
-          <a href="index.html">
-          <img src="icons/mrhairlogo.png">
-        </a>
-          <div class="navlinks" id="navLinks">
-            <i class="fa fa-times hidemenu" onclick="hideMenu()"></i>
-            <ul>
-              <li><a href="index.html"><span>Szia Uram!</span></a></li>
-              <li><a href="gallery.html"><span>Galéria</span></a></li>
-              <li><a href="index.html#section-pricelist"><span>Árak</span></a></li>
-              <li><a href="index.html#section-contact"><span>Időpontfoglalás</span></a></li>
-              <a href="gallery.html"><img src="images/hungary.png"></a>
-              <a href="gallery-ger.html"><img src="images/germany.png"></a>
-              <a href="gallery-eng.html"><img src="images/united-kingdom.png"></a>
-            </ul>
-          </div>
-          <i class="fa fa-bars showmenu" onclick="showMenu()"></i>
-        </nav>
-        <!--1. Section Gallery-->
-        <div class="hero">
-          <div class="line-div">
-            <hr>
-            <p>Világklasszis borbélyszalon</p>
-            </div>
-            <div class="main-title-div">
-              <h1>AZ <br>URAKNAK ELVITELRE</h1>
-              </div>
-            </div>
-            <div class="slideshow-container-gallery">
 
-              <div class="image-line image-line-gallery">
-                <img src="galéria/vendeg1-1.webp">
-                <img src="galéria/vendeg2-1.webp">
-                <img src="galéria/vendeg3-1.webp">
-              </div>
-              <div class="image-line image-line-gallery">
-                <img src="galéria/vendeg4-1.webp">
-                <img src="galéria/vendeg5-1.webp">
-                <img src="galéria/vendeg6-1.webp">
-              </div>
-              <div class="image-line image-line-gallery">
-                <img src="galéria/vendeg7.webp">
-                <img src="galéria/vendeg8.webp">
-                <img src="images/hajvagasssi.webp">
-              </div>
-              <div class="image-line image-line-gallery">
-                <img src="galéria/vendeg11-1.webp">
-                <img src="galéria/vendeg15.webp">
-                <img src="galéria/vendeg16.webp">
-              </div>
-              
-             </div>
-            
-          </header>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/x-icon" href="icons/mrhairicon.svg"> <!--ICON GOES HERE-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <script src="https://kit.fontawesome.com/cb48e5d5ae.js" crossorigin="anonymous"></script>
+  <!--CHANGE THE FONTS BELOW-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+    rel="stylesheet">
+  <title>Mr. Hair - Barber Website</title>
+</head>
 
+<body>
+  <!--0. Header-->
+  <header id="header">
+    <nav class="navbar">
+      <a href="index.html">
+        <img src="icons/mrhairlogo.png">
+      </a>
+      <div class="navlinks" id="navLinks">
+        <i class="fa fa-times hidemenu" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html"><span>Szia Uram!</span></a></li>
+          <li><a href="gallery.html"><span>Galéria</span></a></li>
+          <li><a href="index.html#section-pricelist"><span>Árak</span></a></li>
+          <li><a href="index.html#section-contact"><span>Időpontfoglalás</span></a></li>
+          <a href="gallery.html"><img src="images/hungary.png"></a>
+          <a href="gallery-ger.html"><img src="images/germany.png"></a>
+          <a href="gallery-eng.html"><img src="images/united-kingdom.png"></a>
+        </ul>
+      </div>
+      <i class="fa fa-bars showmenu" onclick="showMenu()"></i>
+    </nav>
+    <!--1. Section Gallery-->
+    <div class="hero">
+      <div class="line-div">
+        <hr>
+        <p>Világklasszis borbélyszalon</p>
+      </div>
+      <div class="main-title-div">
+        <h1>AZ <br>URAKNAK ELVITELRE</h1>
+      </div>
+    </div>
+    <div class="slideshow-container-gallery">
 
-      <section id="gallery-section-contact">
-        <h2>FOGLALJ HELYET!</h2>
-        <div class="line-div">
-          <hr>
-          <p>A LEGJOBB BORBÉLYSZALON A VÁROSBAN!</p>
-        </div>
-        <p class="quote-line">
-          Egy pohár scotch, egy friss nyírás és máris újjászülettél..
-        </p>
-        <div class="contacts">
-          <a href="tel:+36991234567891" target="_blank"><i class="fa-solid fa-phone"></i> &nbsp;+36991234567891</a>
-          <a href="mailto:mrhair@email.com" target="_blank"><i class="fa-solid fa-envelope"></i> &nbsp;&nbsp;mrhair@email.com</a>
-          <a href="https://www.google.com/maps/place/Budapest/@47.4808722,18.8501225,10z/data=!3m1!4b1!4m6!3m5!1s0x4741c334d1d4cfc9:0x400c4290c1e1160!8m2!3d47.497912!4d19.040235!16zL20vMDk1d18" target="_blank">
-            <i class="fa-solid fa-location-dot"></i> &nbsp;&nbsp;&nbsp;1015 Budapest, Hamis utca sehány szám</a>
-        </div>
-
-        <div class="opening-times">
-          <p style="margin:20px 0; 
-            text-decoration: underline;
-            font-weight:600;">Nyitvatartás</p>
-          <p style="margin-bottom:3px;">Hétfő - Csütörtök 08:30 - 18:30</p>
-          <p style="margin-bottom:3px;">Péntek - Szombat 08:00 - 13:00</p>
-          <p>Vasárnap, Ünnepnap: ZÁRVA</p>
-        </div>
-
-        <div class="social-media-icons">
-          <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-          <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-        </div>
-
-      </section>
-
-      <div class="copyright">
-        <p>Copyright © 2023 Szaki Webdesign | Minden jog fenntartva.</p>
-        <p>Szeretnél hasonló weboldalt a vállalkozásodnak? Látogass el ide : <a href="https://szakidesign.hu" target="_blank">szakidesign.hu</a></p>
+      <div class="image-line image-line-gallery">
+        <img src="galéria/vendeg1-1.webp">
+        <img src="galéria/vendeg2-1.webp">
+        <img src="galéria/vendeg3-1.webp">
+      </div>
+      <div class="image-line image-line-gallery">
+        <img src="galéria/vendeg4-1.webp">
+        <img src="galéria/vendeg5-1.webp">
+        <img src="galéria/vendeg6-1.webp">
+      </div>
+      <div class="image-line image-line-gallery">
+        <img src="galéria/vendeg7.webp">
+        <img src="galéria/vendeg8.webp">
+        <img src="images/hajvagasssi.webp">
+      </div>
+      <div class="image-line image-line-gallery">
+        <img src="galéria/vendeg11-1.webp">
+        <img src="galéria/vendeg15.webp">
+        <img src="galéria/vendeg16.webp">
       </div>
 
-      <script src="responsive-menu.js"></script>   
+    </div>
 
-  </body>
+  </header>
+
+
+  <section id="gallery-section-contact">
+    <h2>FOGLALJ HELYET!</h2>
+    <div class="line-div">
+      <hr>
+      <p>A LEGJOBB BORBÉLYSZALON A VÁROSBAN!</p>
+    </div>
+    <p class="quote-line">
+      Egy pohár scotch, egy friss nyírás és máris újjászülettél..
+    </p>
+    <div class="contacts">
+      <a href="tel:+36991234567891" target="_blank"><i class="fa-solid fa-phone"></i> &nbsp;+36991234567891</a>
+      <a href="mailto:mrhair@email.com" target="_blank"><i class="fa-solid fa-envelope"></i>
+        &nbsp;&nbsp;mrhair@email.com</a>
+      <a href="https://www.google.com/maps/place/Budapest/@47.4808722,18.8501225,10z/data=!3m1!4b1!4m6!3m5!1s0x4741c334d1d4cfc9:0x400c4290c1e1160!8m2!3d47.497912!4d19.040235!16zL20vMDk1d18"
+        target="_blank">
+        <i class="fa-solid fa-location-dot"></i> &nbsp;&nbsp;&nbsp;1015 Budapest, Hamis utca sehány szám</a>
+    </div>
+
+    <div class="opening-times">
+      <p style="margin:20px 0; 
+            text-decoration: underline;
+            font-weight:600;">Nyitvatartás</p>
+      <p style="margin-bottom:3px;">Hétfő - Csütörtök 08:30 - 18:30</p>
+      <p style="margin-bottom:3px;">Péntek - Szombat 08:00 - 13:00</p>
+      <p>Vasárnap, Ünnepnap: ZÁRVA</p>
+    </div>
+
+    <div class="social-media-icons">
+      <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+
+  </section>
+
+  <div class="copyright">
+    <p>Copyright © Made in 2022 Szaki Webdesign.</p>
+  </div>
+
+  <script src="responsive-menu.js"></script>
+
+</body>
 
 </html>

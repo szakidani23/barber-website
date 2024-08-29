@@ -1,381 +1,398 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE-edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="general.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css">
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="footer.css">
-    <link rel="icon" type="image/x-icon" href="icons/mrhairicon.svg">  <!--ICON GOES HERE-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <script src="https://kit.fontawesome.com/cb48e5d5ae.js" crossorigin="anonymous"></script>
-    <!--CHANGE THE FONTS BELOW-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
-    <title>Mr. Hair - Barber Website</title>
-  </head>
-  <body>
-       <!--0. Header-->
-       <header id="header">
-        <nav class="navbar">
-          <a href="index.html">
-          <img src="icons/mrhairlogo.png">
-        </a>
-          <div class="navlinks" id="navLinks">
-            <i class="fa fa-times hidemenu" onclick="hideMenu()"></i>
-            <ul>
-              <li><a href="index.html"><span>Szia Uram!</span></a></li>
-              <li><a href="gallery.html"><span>Galéria</span></a></li>
-              <li><a href="#section-pricelist"><span>Árak</span></a></li>
-              <li><a href="#section-contact"><span>Időpontfoglalás</span></a></li>
-              <a href="index.html"><img src="images/hungary.png"></a>
-              <a href="german.html"><img src="images/germany.png"></a>
-              <a href="english.html"><img src="images/united-kingdom.png"></a>
-            </ul>
-          </div>
-          <i class="fa fa-bars showmenu" onclick="showMenu()"></i>
-        </nav>
-        <!--1. Section Hero-->
-        <div class="hero">
-          <div class="line-div">
-            <hr>
-            <p>Világklasszis borbélyszalon</p>
-            </div>
-            <div class="main-title-div">
-              <h1>AZ <br>URAKNAK ELVITELRE</h1>
-              <hr>
-              </div>
-              <div class="quote-div">
-                <i class="fa-solid fa-quote-right quote-icon"></i>
-                <h3>HA VALAKINEK PROBLÉMÁJA VAN VELED, MINDIG JUSSON ESZEDBE, HOGY A TE HAJAD SOKKAL KIRÁLYABB, MINT AZ ÖVÉ.</h3>
-              </div>
-              <div class="button-div">
-                <a href="#section-contact">
-              <button>
-                <i class="fa-solid fa-right-long fa-beat"></i> &nbsp; &nbsp; Időpontot foglalok!
-              </button>
-            </a>
-            </div>
-            </div>
-          </header>
 
-      <!--2. Section SziaUramFeeling-->
-      <section id="section-sziauram">
-        <div class="line-div line-div-sziauram-one">
-          <hr>
-          <p>AZ ÉLETED EGYIK LEGJOBB DÖNTÉSE LESZ</p>
-        </div>
-        <h2 class="subtitle">SZIA URAM!</h2>
-        <div class="line-div line-div-sziauram-two">
-          <hr class="hr-subline">
-          <p>EGY MENŐ FRIZURA ÉRDEKEL? Miért járj borbélyhoz?</p>
-        </div>
-        <p class="sziauram-bigtext">
-          Belépsz a szalonba, töltenek egy italt, csattognak a pengék és a vendég filmsztárként távozik. Ide biztos nem követ az asszony!
-        </p>
-        <div class="textboxes">
-          <div class="textbox-one">
-            <p>
-              Mondhatni úgy is, hogy ez a férfiak klubja, de ezt lehetetlen lenne ilyen egyszerűen megfogalmazni.
-              A borbélyszalon adta életérzés valódi urakká teszi a férfiakat. Nem mindennapos dolog amikor végre rászánod magad, hogy az egyszerű fodrászüzletről átváltasz egy borbélyszalonra. Felemelő érzést fogsz megtapasztalni.
-            </p>
-          </div>
-          <div class="textbox-two">
-            <p>
-              A havi kötelező hajvágás egy élménytúrává, kötelező hobbivá fog átalakulni.
-              <b>Kedves Uram!
-              Elmondok neked egy titkot!</b>
-              Az első amit egy embertársad először megnéz rajtad, az arcod és a „fejviseleted”. Az ápoltság az uraknál kiemelkedően fontos. Egy modern, ápolt külső eleganciát és hatalmat sugároz.
-            </p>
-          </div>
-        </div>
-      </section>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="general.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="icon" type="image/x-icon" href="icons/mrhairicon.svg"> <!--ICON GOES HERE-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <script src="https://kit.fontawesome.com/cb48e5d5ae.js" crossorigin="anonymous"></script>
+  <!--CHANGE THE FONTS BELOW-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+    rel="stylesheet">
+  <title>Mr. Hair - Barber Website</title>
+</head>
 
-      <!--3. Section Szolgáltatások-->
-      <section id="section-szolgaltatasok">
-        <div class="line-div">
-          <hr>
-          <p>A rendkívüli férfiak viselete</p>
-        </div>
-        <h2 class="subtitle">Szolgáltatások</h2>
-        <div class="line-div">
-          <hr class="hr-subline">
-          <p>Büszkeséggel értetek..</p>
-        </div>
-
-        <div class="szolgaltatasok">
-          <div class="szolgaltatas-row">
-            <img src="icons/scissor.png">
-            <div class="row-details">
-              <h3>Hajvágás</h3>
-              <p>mosás, vágás, nyakborotválás.</p>
-            </div>
-          </div>
-
-          <div class="szolgaltatas-row">
-            <img src="icons/avatar.png">
-            <div class="row-details">
-              <h3>Fantázia vágás</h3>
-              <p>extrém hajvágás, egyedi igények alapján, hajtetoválás, minta borotválás.</p>
-            </div>
-          </div>
-
-          <div class="szolgaltatas-row">
-            <img src="icons/razor.png">
-            <div class="row-details">
-              <h3>Borotválás</h3>
-              <p>old school késes borotválás, tűzforró törölközővel.</p>
-            </div>
-          </div>
-
-          <div class="szolgaltatas-row">
-            <img src="icons/beards.png">
-            <div class="row-details">
-              <h3>Szakállfestés és vágás</h3>
-              <p>mint a filmben a sztárok.. szakállvágás penge, gép és olló használatával.</p>
-            </div>
-          </div>
-
-        </div>
-        <div class="button-div">
-          <a href="#section-contact">
+<body>
+  <!--0. Header-->
+  <header id="header">
+    <nav class="navbar">
+      <a href="index.html">
+        <img src="icons/mrhairlogo.png">
+      </a>
+      <div class="navlinks" id="navLinks">
+        <i class="fa fa-times hidemenu" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html"><span>Szia Uram!</span></a></li>
+          <li><a href="gallery.html"><span>Galéria</span></a></li>
+          <li><a href="#section-pricelist"><span>Árak</span></a></li>
+          <li><a href="#section-contact"><span>Időpontfoglalás</span></a></li>
+          <a href="index.html"><img src="images/hungary.png"></a>
+          <a href="german.html"><img src="images/germany.png"></a>
+          <a href="english.html"><img src="images/united-kingdom.png"></a>
+        </ul>
+      </div>
+      <i class="fa fa-bars showmenu" onclick="showMenu()"></i>
+    </nav>
+    <!--1. Section Hero-->
+    <div class="hero">
+      <div class="line-div">
+        <hr>
+        <p>Világklasszis borbélyszalon</p>
+      </div>
+      <div class="main-title-div">
+        <h1>AZ <br>URAKNAK ELVITELRE</h1>
+        <hr>
+      </div>
+      <div class="quote-div">
+        <i class="fa-solid fa-quote-right quote-icon"></i>
+        <h3>HA VALAKINEK PROBLÉMÁJA VAN VELED, MINDIG JUSSON ESZEDBE, HOGY A TE HAJAD SOKKAL KIRÁLYABB, MINT AZ ÖVÉ.
+        </h3>
+      </div>
+      <div class="button-div">
+        <a href="#section-contact">
           <button>
             <i class="fa-solid fa-right-long fa-beat"></i> &nbsp; &nbsp; Időpontot foglalok!
           </button>
         </a>
+      </div>
+    </div>
+  </header>
+  <!-- Main Content Starts here -->
+  <main>
+    <!--2. Section SziaUramFeeling-->
+    <section id="section-sziauram">
+      <div class="line-div line-div-sziauram-one">
+        <hr>
+        <p>AZ ÉLETED EGYIK LEGJOBB DÖNTÉSE LESZ</p>
+      </div>
+      <h2 class="subtitle">SZIA URAM!</h2>
+      <div class="line-div line-div-sziauram-two">
+        <hr class="hr-subline">
+        <p>EGY MENŐ FRIZURA ÉRDEKEL? Miért járj borbélyhoz?</p>
+      </div>
+      <p class="sziauram-bigtext">
+        Belépsz a szalonba, töltenek egy italt, csattognak a pengék és a vendég filmsztárként távozik. Ide biztos nem
+        követ az asszony!
+      </p>
+      <div class="textboxes">
+        <div class="textbox-one">
+          <p>
+            Mondhatni úgy is, hogy ez a férfiak klubja, de ezt lehetetlen lenne ilyen egyszerűen megfogalmazni.
+            A borbélyszalon adta életérzés valódi urakká teszi a férfiakat. Nem mindennapos dolog amikor végre rászánod
+            magad, hogy az egyszerű fodrászüzletről átváltasz egy borbélyszalonra. Felemelő érzést fogsz megtapasztalni.
+          </p>
         </div>
-      </section>
+        <div class="textbox-two">
+          <p>
+            A havi kötelező hajvágás egy élménytúrává, kötelező hobbivá fog átalakulni.
+            <b>Kedves Uram!
+              Elmondok neked egy titkot!</b>
+            Az első amit egy embertársad először megnéz rajtad, az arcod és a „fejviseleted”. Az ápoltság az uraknál
+            kiemelkedően fontos. Egy modern, ápolt külső eleganciát és hatalmat sugároz.
+          </p>
+        </div>
+      </div>
+    </section>
 
-      <!--4. Section Pricelist-->
+    <!--3. Section Szolgáltatások-->
+    <section id="section-szolgaltatasok">
+      <div class="line-div">
+        <hr>
+        <p>A rendkívüli férfiak viselete</p>
+      </div>
+      <h2 class="subtitle">Szolgáltatások</h2>
+      <div class="line-div">
+        <hr class="hr-subline">
+        <p>Büszkeséggel értetek..</p>
+      </div>
 
-      <section id="section-pricelist">
-        <div class="line-div">
-          <hr>
-          <p>A FRIZURA TESZI A FÉRFIT</p>
+      <div class="szolgaltatasok">
+        <div class="szolgaltatas-row">
+          <img src="icons/scissor.png">
+          <div class="row-details">
+            <h3>Hajvágás</h3>
+            <p>mosás, vágás, nyakborotválás.</p>
+          </div>
         </div>
-        <h2>ÁRLISTA</h2>
-        <div class="line-div">
-          <hr>
-          <p>A LEGJOBB BORBÉLYSZALON A VÁROSBAN</p>
+
+        <div class="szolgaltatas-row">
+          <img src="icons/avatar.png">
+          <div class="row-details">
+            <h3>Fantázia vágás</h3>
+            <p>extrém hajvágás, egyedi igények alapján, hajtetoválás, minta borotválás.</p>
+          </div>
         </div>
-        <div class="quote-div-two">
+
+        <div class="szolgaltatas-row">
+          <img src="icons/razor.png">
+          <div class="row-details">
+            <h3>Borotválás</h3>
+            <p>old school késes borotválás, tűzforró törölközővel.</p>
+          </div>
+        </div>
+
+        <div class="szolgaltatas-row">
+          <img src="icons/beards.png">
+          <div class="row-details">
+            <h3>Szakállfestés és vágás</h3>
+            <p>mint a filmben a sztárok.. szakállvágás penge, gép és olló használatával.</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="button-div">
+        <a href="#section-contact">
+          <button>
+            <i class="fa-solid fa-right-long fa-beat"></i> &nbsp; &nbsp; Időpontot foglalok!
+          </button>
+        </a>
+      </div>
+    </section>
+
+    <!--4. Section Pricelist-->
+
+    <section id="section-pricelist">
+      <div class="line-div">
+        <hr>
+        <p>A FRIZURA TESZI A FÉRFIT</p>
+      </div>
+      <h2>ÁRLISTA</h2>
+      <div class="line-div">
+        <hr>
+        <p>A LEGJOBB BORBÉLYSZALON A VÁROSBAN</p>
+      </div>
+      <div class="quote-div-two">
         <p class="quote-line">
-          <i class="fa-sharp fa-solid fa-quote-left quote-icon"></i> &nbsp;&nbsp;&nbsp;Hihetetlen érzés amikor egy friss vágás után kisétálsz a borbély ajtaján.
+          <i class="fa-sharp fa-solid fa-quote-left quote-icon"></i> &nbsp;&nbsp;&nbsp;Hihetetlen érzés amikor egy friss
+          vágás után kisétálsz a borbély ajtaján.
         </p>
       </div>
 
-        <div class="pricelist">
-          <div class="pricelist-line">
-            <p class="detail-title">Alap hajvágás</p>
-            <span></span>
-            <p class="detail-price">5000 Ft &nbsp;14 €</p>
+      <div class="pricelist">
+        <div class="pricelist-line">
+          <p class="detail-title">Alap hajvágás</p>
+          <span></span>
+          <p class="detail-price">5000 Ft &nbsp;14 €</p>
+        </div>
+        <hr>
+      </div>
+
+      <div class="pricelist">
+        <div class="pricelist-line">
+          <p class="detail-title">Gyermek hajvágás 9 éves korig</p>
+          <span></span>
+          <p class="detail-price">3500 Ft &nbsp;10 €</p>
+        </div>
+        <hr>
+      </div>
+
+      <div class="pricelist">
+        <div class="pricelist-line">
+          <p class="detail-title">Fantázia hajvágás</p>
+          <span></span>
+          <p class="detail-price">8000 Ft &nbsp;22 €</p>
+        </div>
+        <hr>
+      </div>
+
+      <div class="pricelist">
+        <div class="pricelist-line">
+          <p class="detail-title">Borbély élmény (vágás, borotválás)</p>
+          <span></span>
+          <p class="detail-price">9000 Ft &nbsp;25 €</p>
+        </div>
+        <hr>
+      </div>
+
+      <div class="pricelist">
+        <div class="pricelist-line">
+          <p class="detail-title">Klasszikus késes borotválás</p>
+          <span></span>
+          <p class="detail-price">4000 Ft &nbsp;12 €</p>
+        </div>
+        <hr>
+      </div>
+
+      <div class="pricelist">
+        <div class="pricelist-line">
+          <p class="detail-title">Szakállfestés</p>
+          <span></span>
+          <p class="detail-price">3000 Ft &nbsp;9 €</p>
+        </div>
+        <hr>
+      </div>
+
+      <div class="pricelist">
+        <div class="pricelist-line">
+          <p class="detail-title">Szakállápolás (penge,gép,olló)</p>
+          <span></span>
+          <p class="detail-price">3500 Ft 10 €
+          </p>
+        </div>
+        <hr>
+      </div>
+    </section>
+
+    <!--5. Section Barbers -->
+    <section id="section-barbers">
+      <h2>OLLÓKEZŰ URAINK</h2>
+      <div class="line-div">
+        <hr>
+        <p>Félelmetesen szakképzett borbélyok</p>
+      </div>
+      <div class="barber-card-container">
+        <div class="barber-card">
+          <img src="csapat/barber1.1.webp">
+          <div class="barber-card-title">
+            <h4>Nagy Norbert</h4>
+            <p>Szakáll specialista, Mr. Hair alapítója.</p>
           </div>
-          <hr>
+          <div class="progress-wrapper" id="progress1" style="padding-right: 4rem;">
+            <span class="progress-bar">Hajvágás</span>
+          </div>
+          <div class="progress-wrapper" id="progress2">
+            <span class="progress-bar">Szakállápolás</span>
+          </div>
+          <div class="progress-wrapper" id="progress3" style="padding-right: 3rem;">
+            <span class="progress-bar">Borotválás</span>
+          </div>
+          <div class="progress-wrapper" id="progress4" style="padding-right: 7rem;">
+            <span class="progress-bar">Kreatív hajvágás</span>
+          </div>
+          <div class="progress-wrapper" id="progress5" style="padding-right: 1rem;">
+            <span class="progress-bar">Szakmai tapasztalat</span>
+          </div>
         </div>
 
-        <div class="pricelist">
-          <div class="pricelist-line">
-            <p class="detail-title">Gyermek hajvágás 9 éves korig</p>
-            <span></span>
-            <p class="detail-price">3500 Ft &nbsp;10 €</p>
+        <div class="barber-card">
+          <img src="csapat/barber3.webp">
+          <div class="barber-card-title">
+            <h4>Hajas gergő</h4>
+            <p>Kreatív hajvágás specialista, profi borbély.</p>
           </div>
-          <hr>
+          <div class="progress-wrapper" id="progress1" style="padding-right: 1rem;">
+            <span class="progress-bar">Hajvágás</span>
+          </div>
+          <div class="progress-wrapper" id="progress2" style="padding-right: 8rem;">
+            <span class="progress-bar">Szakállápolás</span>
+          </div>
+          <div class="progress-wrapper" id="progress3" style="padding-right: 6rem;">
+            <span class="progress-bar">Borotválás</span>
+          </div>
+          <div class="progress-wrapper" id="progress4">
+            <span class="progress-bar">Kreatív hajvágás</span>
+          </div>
+          <div class="progress-wrapper" id="progress5" style="padding-right: 6rem;">
+            <span class="progress-bar">Szakmai tapasztalat</span>
+          </div>
         </div>
 
-        <div class="pricelist">
-          <div class="pricelist-line">
-            <p class="detail-title">Fantázia hajvágás</p>
-            <span></span>
-            <p class="detail-price">8000 Ft &nbsp;22 €</p>
+        <div class="barber-card">
+          <img src="csapat/barbeeeeer.webp">
+          <div class="barber-card-title">
+            <h4>PÁNKI BÁLINT</h4>
+            <p>Borotváló specialista, a penge mestere.</p>
           </div>
-          <hr>
-        </div>
-
-        <div class="pricelist">
-          <div class="pricelist-line">
-            <p class="detail-title">Borbély élmény (vágás, borotválás)</p>
-            <span></span>
-            <p class="detail-price">9000 Ft &nbsp;25 €</p>
+          <div class="progress-wrapper" id="progress1" style="padding-right: 4rem;">
+            <span class="progress-bar">Hajvágás</span>
           </div>
-          <hr>
-        </div>
-
-        <div class="pricelist">
-          <div class="pricelist-line">
-            <p class="detail-title">Klasszikus késes borotválás</p>
-            <span></span>
-            <p class="detail-price">4000 Ft &nbsp;12 €</p>
+          <div class="progress-wrapper" id="progress2" style="padding-right: 5rem;">
+            <span class="progress-bar">Szakállápolás</span>
           </div>
-          <hr>
-        </div>
-
-        <div class="pricelist">
-          <div class="pricelist-line">
-            <p class="detail-title">Szakállfestés</p>
-            <span></span>
-            <p class="detail-price">3000 Ft &nbsp;9 €</p>
+          <div class="progress-wrapper" id="progress3">
+            <span class="progress-bar">Borotválás</span>
           </div>
-          <hr>
-        </div>
-
-        <div class="pricelist">
-          <div class="pricelist-line">
-            <p class="detail-title">Szakállápolás (penge,gép,olló)</p>
-            <span></span>
-            <p class="detail-price">3500 Ft 10 €
-            </p>
+          <div class="progress-wrapper" id="progress4" style="padding-right: 6rem;">
+            <span class="progress-bar">Kreatív hajvágás</span>
           </div>
-          <hr>
+          <div class="progress-wrapper" id="progress5" style="padding-right: 4rem;">
+            <span class="progress-bar">Szakmai tapasztalat</span>
+          </div>
         </div>
-      </section>
+      </div>
 
-      <section id="section-barbers">
-        <h2>OLLÓKEZŰ URAINK</h2>
+      <div class="slider-gallery-main-div">
+        <h2>Ha bizonyítékot szeretnél</h2>
         <div class="line-div">
           <hr>
-          <p>Félelmetesen szakképzett borbélyok</p>
-        </div>
-        <div class="barber-card-container">
-          <div class="barber-card">
-            <img src="csapat/barber1.1.webp">
-            <div class="barber-card-title">
-              <h4>Nagy Norbert</h4>
-              <p>Szakáll specialista, Mr. Hair alapítója.</p>
-            </div>
-            <div class="progress-wrapper" id="progress1" style="padding-right: 4rem;">
-              <span class="progress-bar">Hajvágás</span>
-            </div>
-            <div class="progress-wrapper" id="progress2">
-              <span class="progress-bar">Szakállápolás</span>
-            </div>
-            <div class="progress-wrapper" id="progress3" style="padding-right: 3rem;">
-              <span class="progress-bar">Borotválás</span>
-            </div>
-            <div class="progress-wrapper" id="progress4" style="padding-right: 7rem;">
-              <span class="progress-bar">Kreatív hajvágás</span>
-            </div>
-            <div class="progress-wrapper" id="progress5" style="padding-right: 1rem;">
-              <span class="progress-bar">Szakmai tapasztalat</span>
-            </div>
-          </div>
-
-          <div class="barber-card">
-            <img src="csapat/barber3.webp">
-            <div class="barber-card-title">
-              <h4>Hajas gergő</h4>
-              <p>Kreatív hajvágás specialista, profi borbély.</p>
-            </div>
-            <div class="progress-wrapper" id="progress1" style="padding-right: 1rem;">
-              <span class="progress-bar">Hajvágás</span>
-            </div>
-            <div class="progress-wrapper" id="progress2" style="padding-right: 8rem;">
-              <span class="progress-bar">Szakállápolás</span>
-            </div>
-            <div class="progress-wrapper" id="progress3" style="padding-right: 6rem;">
-              <span class="progress-bar">Borotválás</span>
-            </div>
-            <div class="progress-wrapper" id="progress4" >
-              <span class="progress-bar">Kreatív hajvágás</span>
-            </div>
-            <div class="progress-wrapper" id="progress5" style="padding-right: 6rem;">
-              <span class="progress-bar">Szakmai tapasztalat</span>
-            </div>
-          </div>
-
-          <div class="barber-card">
-            <img src="csapat/barbeeeeer.webp">
-            <div class="barber-card-title">
-              <h4>PÁNKI BÁLINT</h4>
-              <p>Borotváló specialista, a penge mestere.</p>
-            </div>
-            <div class="progress-wrapper" id="progress1" style="padding-right: 4rem;">
-              <span class="progress-bar">Hajvágás</span>
-            </div>
-            <div class="progress-wrapper" id="progress2" style="padding-right: 5rem;">
-              <span class="progress-bar">Szakállápolás</span>
-            </div>
-            <div class="progress-wrapper" id="progress3">
-              <span class="progress-bar">Borotválás</span>
-            </div>
-            <div class="progress-wrapper" id="progress4" style="padding-right: 6rem;">
-              <span class="progress-bar">Kreatív hajvágás</span>
-            </div>
-            <div class="progress-wrapper" id="progress5" style="padding-right: 4rem;">
-              <span class="progress-bar">Szakmai tapasztalat</span>
-            </div>
-          </div>
+          <p>Ilyen külsővel BÁRKIT LENYŰGÖZÖL</p>
         </div>
 
-        <div class="slider-gallery-main-div">
-          <h2>Ha bizonyítékot szeretnél</h2>
-          <div class="line-div">
-            <hr>
-            <p>Ilyen külsővel BÁRKIT LENYŰGÖZÖL</p>
-          </div>
-
-          <!-- Slideshow container -->
+        <!-- Slideshow container -->
         <div class="slideshow-container">
 
-        <div class="image-line">
-          <img src="galéria/vendeg1-1.webp">
-          <img src="galéria/vendeg2-1.webp">
-          <img src="galéria/vendeg3-1.webp">
+          <div class="image-line">
+            <img src="galéria/vendeg1-1.webp">
+            <img src="galéria/vendeg2-1.webp">
+            <img src="galéria/vendeg3-1.webp">
+          </div>
+
+          <a href="gallery.html">
+            <button>
+              <i class="fa-solid fa-right-long fa-beat"></i> &nbsp;&nbsp;Irány a galéria!
+            </button>
+          </a>
+
         </div>
-
-        <a href="gallery.html">
-        <button>
-          <i class="fa-solid fa-right-long fa-beat"></i> &nbsp;&nbsp;Irány a galéria!
-        </button>
-      </a>
-
-       </div>
       </div>
 
-      </section>
+    </section>
+    <!-- 6. Section Contact -->
+    <section id="section-contact">
+      <h2>FOGLALJ HELYET!</h2>
+      <div class="line-div">
+        <hr>
+        <p>A LEGJOBB BORBÉLYSZALON A VÁROSBAN!</p>
+      </div>
+      <p class="quote-line">
+        Egy pohár scotch, egy friss nyírás és máris újjászülettél..
+      </p>
+      <div class="contacts">
+        <a href="tel:+36991234567891" target="_blank"><i class="fa-solid fa-phone"></i> &nbsp;+36991234567891</a>
+        <a href="mailto:mrhair@email.com" target="_blank"><i class="fa-solid fa-envelope"></i>
+          &nbsp;&nbsp;mrhair@email.com</a>
+        <a href="https://www.google.com/maps/place/Budapest/@47.4808722,18.8501225,10z/data=!3m1!4b1!4m6!3m5!1s0x4741c334d1d4cfc9:0x400c4290c1e1160!8m2!3d47.497912!4d19.040235!16zL20vMDk1d18"
+          target="_blank"><i class="fa-solid fa-location-dot"></i> &nbsp;&nbsp;&nbsp;1015 Budapest, Hamis utca sehány
+          szám</a>
+      </div>
 
-      <section id="section-contact">
-        <h2>FOGLALJ HELYET!</h2>
-        <div class="line-div">
-          <hr>
-          <p>A LEGJOBB BORBÉLYSZALON A VÁROSBAN!</p>
-        </div>
-        <p class="quote-line">
-          Egy pohár scotch, egy friss nyírás és máris újjászülettél..
-        </p>
-        <div class="contacts">
-          <a href="tel:+36991234567891" target="_blank"><i class="fa-solid fa-phone"></i> &nbsp;+36991234567891</a>
-          <a href="mailto:mrhair@email.com" target="_blank"><i class="fa-solid fa-envelope"></i> &nbsp;&nbsp;mrhair@email.com</a>
-          <a href="https://www.google.com/maps/place/Budapest/@47.4808722,18.8501225,10z/data=!3m1!4b1!4m6!3m5!1s0x4741c334d1d4cfc9:0x400c4290c1e1160!8m2!3d47.497912!4d19.040235!16zL20vMDk1d18" target="_blank"><i class="fa-solid fa-location-dot"></i> &nbsp;&nbsp;&nbsp;1015 Budapest, Hamis utca sehány szám</a>
-        </div>
-
-        <div class="opening-times">
-          <p style="margin:20px 0; 
+      <div class="opening-times">
+        <p style="margin:20px 0; 
             text-decoration: underline;
             font-weight:600;">Nyitvatartás</p>
-          <p style="margin-bottom:3px;">Hétfő - Csütörtök 08:30 - 18:30</p>
-          <p style="margin-bottom:3px;">Péntek - Szombat 08:00 - 13:00</p>
-          <p>Vasárnap, Ünnepnap: ZÁRVA</p>
-        </div>
-
-        <div class="social-media-icons">
-          <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-          <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-        </div>
-
-      </section>
-
-      <div class="copyright">
-        <p>Copyright © 2023 Szaki Webdesign | Minden jog fenntartva.</p>
-        <p>Szeretnél hasonló weboldalt a vállalkozásodnak? Látogass el ide : <a href="https://szakidesign.hu" target="_blank">szakidesign.hu</a></p>
+        <p style="margin-bottom:3px;">Hétfő - Csütörtök 08:30 - 18:30</p>
+        <p style="margin-bottom:3px;">Péntek - Szombat 08:00 - 13:00</p>
+        <p>Vasárnap, Ünnepnap: ZÁRVA</p>
       </div>
 
-    <script src="progressbar.js"></script> 
-    <script src="responsive-menu.js"></script>   
-  </body>
+      <div class="social-media-icons">
+        <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+
+    </section>
+  </main>
+  <!-- Footer -->
+  <footer>
+    <div class="copyright">
+      <p>Copyright © 2023 Szaki Webdesign </p>
+    </div>
+  </footer>
+
+  <!-- Functions -->
+  <script src="progressbar.js"></script>
+  <script src="responsive-menu.js"></script>
+</body>
 
 </html>

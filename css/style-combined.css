@@ -1,9 +1,188 @@
-/*1.section hero*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Encode Sans Condensed', sans-serif;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  background-color: #fff;
+}
+
+section {
+  padding: 5rem;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 86px;
+}
+
+h2 {
+  font-size: 84px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4,
+p,
+button {
+  font-size: 16px;
+}
+
+h2,
+h3,
+h4 {
+  font-weight: 700;
+}
+
+button {
+  padding: 18px 25px;
+  color: #d9d9d9;
+  font-weight: 700;
+  font-family: 'Encode Sans Condensed', sans-serif;
+  text-align: center;
+  border-radius: 0;
+  border: solid 2px #dd3333;
+  background-color: transparent;
+  transition: 0.3s;
+  text-transform: uppercase;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+
+i {
+  color: #fff;
+}
+
+button:hover {
+  color: white;
+  background-color: #dd3333;
+}
+
+p {
+  text-align: left;
+  color: #d9d9d9;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  transition: all 0.2s ease-in;
+}
+
+hr:hover {
+  border-color: #dd3333;
+}
+
+#header {
+  background-image: linear-gradient(#00000065, #000),
+    url(../images/hattergyanus2.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+nav img {
+  max-width: 240px;
+  cursor: pointer;
+  margin-right: 5rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navlinks {
+  text-transform: uppercase;
+  flex: 1;
+  text-align: center;
+}
+
+.navlinks ul {
+  text-align: end;
+}
+
+.navlinks ul li {
+  list-style: none;
+  display: inline-block;
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 48px;
+  padding: 0 20px;
+  color: #dd3333;
+  position: relative;
+}
+
+.navbar ul img {
+  width: 30px;
+  margin: 20px 8px 0 18px;
+}
+
+.navbar ul img:hover {
+  transform: scale(1.3);
+}
+
+.navlinks ul li a {
+  text-decoration: none;
+}
+
+.navlinks ul li a span {
+  position: relative;
+  display: inline-block;
+}
+
+.navlinks ul li a span::before,
+.navlinks ul li a span::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 3px;
+  bottom: 0;
+  background-color: #dd3333;
+  transition: all 0.4s ease;
+}
+
+.navlinks ul li a span::before {
+  left: 50%;
+}
+
+.navlinks ul li a span::after {
+  right: 50%;
+}
+
+.navlinks ul li a:hover span::before,
+.navlinks ul li a:hover span::after {
+  width: 50%;
+}
+
+.navlinks ul li a:hover span::before {
+  left: 0;
+}
+
+.navlinks ul li a:hover span::after {
+  right: 0;
+}
 
 .hero {
-  width: 50%;
-  margin-top: 7.3rem;
-  padding-left: 12%;
+  margin-top: 5rem;
+  padding: 3rem;
 }
 
 .line-div {
@@ -332,7 +511,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 10%;
+  padding: 5rem;
 }
 
 .image-line-gallery img {
@@ -343,13 +522,9 @@
 
 .copyright {
   background-color: #141d3a;
-  height: 6.5rem;
-  opacity: 0.9;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  line-height: 25px;
 }
 
 .copyright p,
@@ -450,7 +625,7 @@
   }
 
   section {
-    padding: 10%;
+    padding: 5rem;
   }
 
   .sziauram-bigtext {
@@ -485,14 +660,13 @@
   }
 
   .slideshow-container {
-    padding: 10%;
+    padding: .5rem;
   }
 }
 @media only screen and (max-width: 680px) {
   .copyright {
     display: block;
-    padding: 0 10%;
-    height: 8rem;
+    padding: 2rem;
   }
 
   .copyright p {
@@ -524,13 +698,13 @@
   }
 
   section {
-    padding: 10%;
+    padding: 3rem;
   }
 
   .hero {
     width: 100%;
-    padding: 10%;
-    margin-top: 3rem;
+    padding: 3rem;
+    margin-top: 2rem;
   }
 
   .hero button {
@@ -571,186 +745,3 @@
   }
 }
 
-/*0.section menu header*/
-
-#header {
-  background-image: linear-gradient(#00000065, #000),
-    url(../images/hattergyanus2.webp);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-nav img {
-  max-width: 240px;
-  cursor: pointer;
-  margin-right: 5rem;
-}
-
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 16px 10%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.navlinks {
-  text-transform: uppercase;
-  flex: 1;
-  text-align: center;
-}
-
-.navlinks ul {
-  text-align: end;
-}
-
-.navlinks ul li {
-  list-style: none;
-  display: inline-block;
-  font-size: 19px;
-  font-weight: 600;
-  line-height: 48px;
-  padding: 0 20px;
-  color: #dd3333;
-  position: relative;
-}
-
-.navbar ul img {
-  width: 30px;
-  margin: 20px 8px 0 18px;
-}
-
-.navbar ul img:hover {
-  transform: scale(1.3);
-}
-
-.navlinks ul li a {
-  text-decoration: none;
-}
-
-.navlinks ul li a span {
-  position: relative;
-  display: inline-block;
-}
-
-.navlinks ul li a span::before,
-.navlinks ul li a span::after {
-  content: '';
-  position: absolute;
-  width: 0;
-  height: 3px;
-  bottom: 0;
-  background-color: #dd3333;
-  transition: all 0.4s ease;
-}
-
-.navlinks ul li a span::before {
-  left: 50%;
-}
-
-.navlinks ul li a span::after {
-  right: 50%;
-}
-
-.navlinks ul li a:hover span::before,
-.navlinks ul li a:hover span::after {
-  width: 50%;
-}
-
-.navlinks ul li a:hover span::before {
-  left: 0;
-}
-
-.navlinks ul li a:hover span::after {
-  right: 0;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  font-family: 'Encode Sans Condensed', sans-serif;
-  box-sizing: border-box;
-  color: #fff;
-}
-
-html,
-body {
-  overflow-x: hidden;
-  scroll-behavior: smooth;
-  background-color: #fff;
-}
-
-section {
-  padding: 10% 0 10% 12%;
-}
-
-h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 900;
-  font-size: 86px;
-}
-
-h2 {
-  font-size: 84px;
-}
-
-h3 {
-  font-size: 28px;
-}
-
-h4,
-p,
-button {
-  font-size: 16px;
-}
-
-h2,
-h3,
-h4 {
-  font-weight: 700;
-}
-
-button {
-  padding: 18px 25px;
-  color: #d9d9d9;
-  font-weight: 700;
-  font-family: 'Encode Sans Condensed', sans-serif;
-  text-align: center;
-  border-radius: 0;
-  border: solid 2px #dd3333;
-  background-color: transparent;
-  transition: 0.3s;
-  text-transform: uppercase;
-  font-size: 15px;
-  cursor: pointer;
-  transition: all 0.3s ease-in;
-}
-
-i {
-  color: #fff;
-}
-
-button:hover {
-  color: white;
-  background-color: #dd3333;
-}
-
-p {
-  text-align: left;
-  color: #d9d9d9;
-}
-
-a {
-  text-decoration: none;
-}
-
-hr {
-  transition: all 0.2s ease-in;
-}
-
-hr:hover {
-  border-color: #dd3333;
-}
